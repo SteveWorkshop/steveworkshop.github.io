@@ -1,0 +1,71 @@
+/* focusbox */
+.focusbox{
+    position:relative;
+    overflow:hidden;
+width:100%;
+    max-width:480px;
+    height:370px;
+    margin:10px auto;
+}
+.contentbox ul{
+    padding-inline-start: 0;
+}
+.contentimg{position:absolute;top:0;left:0;width:7000px;}
+.contentimg li{width:480px;height:320px;float:left;overflow:hidden;}
+.contentimg li img{width:480px;height:320px;}
+.contentdesc{
+    position:absolute;
+    top:319px;
+    left:0px;
+    width:100%;
+    height:80px;
+    overflow:hidden;
+    background-color: red;
+    filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#B2000000', endColorstr='#B2000000');
+}
+.contentdesc .desc{
+    color:#ffffff;
+    font-size:12px;
+    line-height:36px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.desc div{
+    text-indent:1.2em;
+    height:290px;
+}
+.desc a{
+    position:absolute;
+    color:#cccccc;
+    margin-left:20px;
+    line-height:26px;
+    font-size:14px;
+}
+.mfoc_nav{
+    padding-inline-start: 0;
+    margin:0;	
+}
+.contentdesc li{width:440px;height:80px;padding:0px;}
+.focusbox .navbox{
+    width:110px;
+    overflow:hidden;
+    position:absolute;
+    bottom:5px;
+    right:10px;
+}
+.focusbox .navbox li{
+    float: left;
+    margin-right: 4px;
+    width: 20px;
+    height: 14px;
+    text-align: center;
+    line-height: 14px;
+    background: #494544;
+    cursor: pointer;
+    border-radius: inherit;
+    color: #fff;
+    font-size: 12px;
+    border:1px solid #494544;
+}
+
+.focusbox .navbox li.selected{width:20px;height:14px;border:1px solid #aaaaaa;}

@@ -1,0 +1,209 @@
+body{
+min-width:420px;
+font-family:"STHeiti Light","Microsoft YaHei","Tahoma","Arial";
+}
+.fr{
+    float:right;
+}
+.fl{
+    float:left;
+}
+.search{
+    width:376px;
+    height:63px;
+    margin-top:20px;
+    background:url("../img/search.jpg");
+}
+.search .input{
+    border:0px;
+    width:276px;
+    margin-top:20px;
+    margin-left:38px;
+    font-size:20px;
+    color:red;
+}
+.navbar .nav > li:hover .dropdown-menu {
+    display: block;
+}
+.topdiv{
+    background:red;
+    color:#ffffff;
+    line-height:30px;
+}
+.topdiv a{
+    color:#dddddd;
+    font-size:16px;
+}
+.logo{
+    margin:20px 0;
+    display:flex;
+    align-items:flex-end;
+}
+.logo div{
+padding:0
+}
+.navbar{
+    margin:0
+}
+.nav-ie{
+    background-color: red;
+}
+.navbar-header img{
+    float:left;
+}
+#menu a {
+    color:#dddddd;
+    font-size:14px;
+    padding:15px 4px;
+}
+#menu a:hover{
+    color:#ffffff;
+    background-color:red
+}
+.dropdown-menu{
+    background-color: #1B3665;
+    border:1px solid #1B3665;
+}
+@media (max-width: 767px){
+.dropdown-menu{
+    position:static;
+    float:none;
+}
+#menu a {
+    font-size:16px;
+    padding:15px 5px;
+  }
+}
+@media (min-width:1000px){
+  #menu a {
+    font-size:16px;
+    padding:15px 10px;
+  }
+}
+
+@media (min-width:1200px){
+  .menuli{
+    width:110px;
+    text-align:center;
+  }
+  #menu a {
+    padding:15px 18px;
+  }
+}
+.alignr{
+    text-align:right;
+}
+
+.listname{
+    margin: 10px;
+    border-bottom:2px solid red;
+    padding:0 10px;
+    font-size:20px;
+    line-height:36px;
+}
+.listname img{
+margin:0 5px;
+width:20px;
+}
+.listname span{
+    float:right;
+}
+.newslist{
+    margin-left:6px; 
+    table-layout: fixed;
+    width:100%;
+}
+.newslist2{
+border-bottom: 1px dotted #C8DBEA;
+line-height:36px;
+}
+.newslist td{
+    word-break: keep-all; /* 不换行 */
+    white-space: nowrap; /* 不换行 */
+    overflow: hidden; /* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow: ellipsis ; /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+.foot{
+    width: 100%;
+    background: red;
+    color:#ffffff;
+    padding:30px;
+}
+.quicklinkbox, .linkbox{
+    width: 100%;
+    background: red;
+    color:#ffffff;
+    padding:30px;
+}
+.context_title{
+text-align:center;
+}
+.context_title h4{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.localaddress{
+margin:20px 30px;
+text-align:right;
+}
+.nav2box{
+min-height:300px;
+background: #f4faff;
+text-align:center;
+font-size:16px;
+line-height:46px;
+}
+.nav2title{
+background: red;
+margin-top:10px;
+color:#eeeeee;
+}
+.nav2box ul,.nav2box li{
+list-style: none;
+padding: 0;
+ border-bottom: 1px solid #e8e8e8;
+}
+.nav2box a{
+display: block;
+text-decoration: none;
+}
+.nav2box a:hover{
+background: #ffffff;
+color:red;
+}
+.cur{
+border-left: 5px solid red;
+}
+.quicklinkbox a, linkbox a{
+font-size:16px;
+color:#ffffff;
+}
+.quicklinkimg{
+width:55px;
+margin:10px 0;
+}
+.link li a{
+color:#fff;
+line-height:36px;
+}
+.link1{
+margin:10px;
+}
+.systitle{
+background: #035D9F;
+margin-top:10px;
+color:#eeeeee;
+font-size:14px;
+line-height:30px;
+padding:10px
+}
+#u_u7_imgcontent table table:hover {
+    box-shadow: 10px 10px 30px #9ab;
+    transition: 1s all;
+}
+.vsbcontent_img{
+margin:20px;
+}
+@media screen and (min-width: 768px) {
+    .rwd-break { display: none; }
+}
