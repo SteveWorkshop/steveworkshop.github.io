@@ -20,13 +20,13 @@ font-family:"STHeiti Light","Microsoft YaHei","Tahoma","Arial";
     margin-top:20px;
     margin-left:38px;
     font-size:20px;
-    color:red;
+    color:#F35E5E;
 }
 .navbar .nav > li:hover .dropdown-menu {
     display: block;
 }
 .topdiv{
-    background:red;
+    background:#F35E5E;
     color:#ffffff;
     line-height:30px;
 }
@@ -46,7 +46,7 @@ padding:0
     margin:0
 }
 .nav-ie{
-    background-color: red;
+    background-color: #F35E5E;
 }
 .navbar-header img{
     float:left;
@@ -58,7 +58,7 @@ padding:0
 }
 #menu a:hover{
     color:#ffffff;
-    background-color:red
+    background-color:#F35E5E
 }
 .dropdown-menu{
     background-color: #1B3665;
@@ -96,7 +96,7 @@ padding:0
 
 .listname{
     margin: 10px;
-    border-bottom:2px solid red;
+    border-bottom:2px solid #F35E5E;
     padding:0 10px;
     font-size:20px;
     line-height:36px;
@@ -125,13 +125,13 @@ line-height:36px;
 }
 .foot{
     width: 100%;
-    background: red;
+    background: #F35E5E;
     color:#ffffff;
     padding:30px;
 }
 .quicklinkbox, .linkbox{
     width: 100%;
-    background: red;
+    background: #F35E5E;
     color:#ffffff;
     padding:30px;
 }
@@ -154,7 +154,7 @@ font-size:16px;
 line-height:46px;
 }
 .nav2title{
-background: red;
+background: #F35E5E;
 margin-top:10px;
 color:#eeeeee;
 }
@@ -169,10 +169,10 @@ text-decoration: none;
 }
 .nav2box a:hover{
 background: #ffffff;
-color:red;
+color:#F35E5E;
 }
 .cur{
-border-left: 5px solid red;
+border-left: 5px solid #F35E5E;
 }
 .quicklinkbox a, linkbox a{
 font-size:16px;
