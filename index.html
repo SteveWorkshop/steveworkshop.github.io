@@ -10,13 +10,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- 引入 Bootstrap -->
   <link href="./机械系教工党支部邀请李冶副书记讲党课-机电与信息工程学院_files/bootstrap.min.css" rel="stylesheet">
-
-  <!-- HTML5 Shiv 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
-  <!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
-  <!--[if lt IE 9]>
-         <script src="../../js/html5shiv.js"></script>
-         <script src="../../js/respond.min.js"></script>
-      <![endif]-->
   <link href="./机械系教工党支部邀请李冶副书记讲党课-机电与信息工程学院_files/style.css" rel="stylesheet">
   <link href="./机械系教工党支部邀请李冶副书记讲党课-机电与信息工程学院_files/picnew.css" rel="stylesheet">
   <link rel="stylesheet" href="./机械系教工党支部邀请李冶副书记讲党课-机电与信息工程学院_files/zoomify.min.css">
@@ -53,6 +46,9 @@
     }
   }
 </style>
+
+<script src="./机械系教工党支部邀请李冶副书记讲党课-机电与信息工程学院_files/jquery-3.7.1.min.js"></script>
+<script src="./机械系教工党支部邀请李冶副书记讲党课-机电与信息工程学院_files/bootstrap.min.js"></script>
 
 <body>
 
@@ -112,13 +108,51 @@
     </div>
     <div style=" padding: 5px;">
       <h3 style="color: indianred;">视频展播</h3>
-      <div style="text-align: right;"></div>
+      <div style="text-align: right;">
+        <br>
+      </div>
       <hr>
-      <div style=" text-align: center; padding: 15px;">
+      <!-- <div style=" text-align: center; padding: 15px;">
         <video controls src="./01.mp4" width="30%" poster="./Screenshot.png"></video>
         <video controls src="./02.mp4" width="30%" poster="./Screenshot.png"></video>
         <video controls src="./03.mp4" width="30%" poster="./Screenshot.png"></video>
+      </div> -->
+      <div id="videoCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <video controls width="100%">
+              <source src="./01.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="item">
+            <video controls width="100%">
+              <source src="./02.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="item">
+            <video controls width="100%">
+              <source src="./03.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a style="height: 50%; width: 50px; margin: auto;" class="left carousel-control" href="#videoCarousel"
+          role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left " aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a style="height: 50%; width: 50px;margin: auto;" class="right carousel-control" href="#videoCarousel"
+          role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
+
     </div>
     <div style="padding: 5px;">
       <h3 style="color: indianred;">工作动态</h3>
@@ -209,7 +243,8 @@
   <section style="width: 75%;margin: 0 auto;" class="section-flex">
     <div style=" padding: 5px;">
       <h3 style="color: indianred;">学习资料</h2>
-        <div style="text-align: right;"><a href="https://www.view.sdu.edu.cn/xxgcxjpxsdzgtsshzysxztjyztwz/xxzl.htm">更多</a>&gt;</div>
+        <div style="text-align: right;"><a
+            href="https://www.view.sdu.edu.cn/xxgcxjpxsdzgtsshzysxztjyztwz/xxzl.htm">更多</a>&gt;</div>
         <hr>
         <div style="border: 1px red; margin: 30px; padding: 5px;">
           <img src="./5.png" height="100px"><img src="./6.jpg" height="100px"><img src="./7.jpg" height="100px">
@@ -217,7 +252,11 @@
         <div style="margin: 10px;">
           <ul>
             <li>
-              <a href="hhttps://article.xuexi.cn/articles/index.html?study_style_id=feeds_default&ptype=75&reedit_timestamp=1700743556000&to_audit_timestamp=2023-11-23+20%3A45%3A56&item_id=17562135505148865544&art_id=17562135505148865544&source=share&share_to=wx_single&study_com">学习贯彻习近平新时代中国特色社会主义思想主题教育中央巡回指导组座谈会召开</a>
+              <a href="https://faculty.sdu.edu.cn/~YVFfyq/zh_CN/index.htm">山东大学优秀教职工代表</a>
+            </li>
+            <li>
+              <a
+                href="hhttps://article.xuexi.cn/articles/index.html?study_style_id=feeds_default&ptype=75&reedit_timestamp=1700743556000&to_audit_timestamp=2023-11-23+20%3A45%3A56&item_id=17562135505148865544&art_id=17562135505148865544&source=share&share_to=wx_single&study_com">学习贯彻习近平新时代中国特色社会主义思想主题教育中央巡回指导组座谈会召开</a>
             </li>
             <li>
               <a href="http://ztjy.people.cn/n1/2023/1113/c457340-40116507.html">学习贯彻习近平文化思想座谈会发言摘编</a>
@@ -226,10 +265,13 @@
               <a href="http://ztjy.people.cn/n1/2023/1116/c457340-40119250.html">校深入学习贯彻习近平文化思想 更好担负起新的文化使命</a>
             </li>
             <li>
-              <a href="https://article.xuexi.cn/articles/index.html?art_id=2762124303029926640&source=share&study_style_id=feeds_default&reco_id=102658ddbe16c0a88581000o&share_to=wx_single&study_share_enable=1&study_comment_disable=0&ptype=75&item_id=2762124303029926640&pid=416">深学细悟习近平文化思想 切实担负起新的文化使命</a>
+              <a
+                href="https://article.xuexi.cn/articles/index.html?art_id=2762124303029926640&source=share&study_style_id=feeds_default&reco_id=102658ddbe16c0a88581000o&share_to=wx_single&study_share_enable=1&study_comment_disable=0&ptype=75&item_id=2762124303029926640&pid=416">深学细悟习近平文化思想
+                切实担负起新的文化使命</a>
             </li>
             <li>
-              <a href="https://article.xuexi.cn/articles/index.html?art_id=11637321809065013235&item_id=11637321809065013235&study_style_id=feeds_default&t=1696993009909&showmenu=false&ref_read_id=7aac2fda-8735-477f-b93a-23621b418ffe_1698554689063&pid=&ptype=-1&source=share&sha">“七个着力”指引宣传思想文化工作展现新气象新作为</a>
+              <a
+                href="https://article.xuexi.cn/articles/index.html?art_id=11637321809065013235&item_id=11637321809065013235&study_style_id=feeds_default&t=1696993009909&showmenu=false&ref_read_id=7aac2fda-8735-477f-b93a-23621b418ffe_1698554689063&pid=&ptype=-1&source=share&sha">“七个着力”指引宣传思想文化工作展现新气象新作为</a>
             </li>
             <li>
               <a href="http://politics.people.com.cn/n1/2023/0422/c1001-32670659.html">时政微观察丨总书记的书单</a>
@@ -238,18 +280,17 @@
               <a href="https://www.12371.cn/2023/04/06/ARTI1680735577777907.shtml">《习近平著作选读》第一卷主要篇目介绍</a>
             </li>
             <li>
-              <a href="https://preview-pdf.xuexi.cn/preview/index.html?url=https%3A%2F%2Fpreview-pdf.xuexi.cn%2F5b6c4ecb2675211607e7c597%2Fu5648eeahma.pdf&copy=1">习近平关于实现中华民族伟大复兴的中国梦论述摘编</a>
+              <a
+                href="https://preview-pdf.xuexi.cn/preview/index.html?url=https%3A%2F%2Fpreview-pdf.xuexi.cn%2F5b6c4ecb2675211607e7c597%2Fu5648eeahma.pdf&copy=1">习近平关于实现中华民族伟大复兴的中国梦论述摘编</a>
             </li>
             <li>
               <a href="https://www.12371.cn/2023/04/06/ARTI1680780812603492.shtmlm">《习近平新时代中国特色社会主义思想专题摘编》在全国出版发行
               </a>
             </li>
             <li>
-              <a href="https://www.12371.cn/special/dsxxjc/gcdls/">山东大学优秀共产党员代表</a>
+              <a href="https://www.12371.cn/special/dsxxjc/gcdls/">习近平同志《论中国共产党历史》</a>
             </li>
-            <li>
-              <a href="https://ie.wh.sdu.edu.cn/info/1012/6462.htm">习近平同志《论中国共产党历史》</a>
-            </li>
+
             <li>
               <a href="https://www.12371.cn/special/ssjyp/">《习近平新时代中国特色社会主义思想三十讲》</a>
             </li>
@@ -275,7 +316,7 @@
     </div>
     <div style=" padding: 5px;">
       <h3 style="color: indianred;">教育案例</h2>
-        <div style="text-align: right;"><a href="https://ieoa.wh.sdu.edu.cn/sz/index">更多</a>&gt;</div>
+        <div style="text-align: right;"><a href= https://ie.wh.sdu.edu.cn/djgz/ztjy.htm">更多</a>&gt;</div>
         <hr>
         <div style="border: 1px red; margin: 30px; padding: 5px;">
           <img src="./8.jpg" height="100px"><img src="./9.jpg" height="100px"><img src="./10.jpg" height="100px">
